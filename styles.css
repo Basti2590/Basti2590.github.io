@@ -1,1 +1,118 @@
-
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('IMAGES/luffy.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+  
+  .cockroach {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    width: 100px;
+  }
+  
+  header {
+    width: 100%;
+    background: #1e1e1e;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  
+  header h1 {
+    font-family: 'Pacifico', cursive;
+    animation: rgbAnimation 3s linear infinite;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  header h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 1.5em;
+    margin: 0;
+    min-height: 1.5em;
+  }
+  
+  @keyframes rgbAnimation {
+    0% {
+      color: red;
+    }
+    15% {
+      color: yellow;
+    }
+    30% {
+      color: green;
+    }
+    45% {
+      color: cyan;
+    }
+    60% {
+      color: blue;
+    }
+    75% {
+      color: magenta;
+    }
+    100% {
+      color: red;
+    }
+  }
+  
+  main {
+    width: 90%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #1e1e1e;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+  }
+  
+  h2 {
+    color: #00d4ff;
+    border-bottom: 2px solid #00d4ff;
+    display: inline-block;
+    padding-bottom: 5px;
+    font-size: 1.5em;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  li {
+    margin: 12px 0;
+    background: #252525;
+    padding: 14px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  li:hover {
+    background: #00d4ff;
+    transform: translateY(-3px);
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1em;
+    display: block;
+  }
+  
+  li:hover a {
+    color: #121212;
+  }
+  
